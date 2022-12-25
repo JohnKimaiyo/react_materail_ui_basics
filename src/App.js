@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import CustomInputAutocomplete from './AutoComplete/CustomInputAutocomplete';
+
+import Options from './AutoComplete/options';
 
 function App() {
   return (
     <div className="App">
-    <CustomInputAutocomplete/>
+<Options/>
     </div>
   );
 }

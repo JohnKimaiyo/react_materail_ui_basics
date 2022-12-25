@@ -3,7 +3,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 
 const options = ["Option 1", "Option 2","Option 3"];
 
-export default function CustomInputAutocomplete() {
+export default function Options() {
   return (
     <label>
       Value:{" "}
