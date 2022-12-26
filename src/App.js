@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Cities from "./AutoComplete/Cities";
+import Basic from "./Buttons/Basic";
 
 function App() {
   return (
     <div className="App">
-      <Cities />
+      <Basic/>
     </div>
   );
 }
