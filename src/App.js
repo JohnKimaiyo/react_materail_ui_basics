@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Options from './AutoComplete/options';
-
+import Month from "./AutoComplete/Month";
 function App() {
   return (
     <div className="App">
-<Options/>
+
+      <Month />
     </div>
   );
 }
