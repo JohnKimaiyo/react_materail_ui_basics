@@ -1,19 +1,12 @@
 import React from "react";
 import "./App.css";
-import Basic from "./Buttons/Basic";
-import Icon from "./Buttons/Icon";
-import Loading from "./Buttons/Loading";
-import Label from "./Buttons/Label";
-
+import Typo from "./Typograhy/Typo";
 
 function App() {
   return (
     <div className="App">
-      <Basic />
-      <Icon />
-      <Loading />
-      <Label />
-  
+      <Typo/>
+
     </div>
   );
 }
